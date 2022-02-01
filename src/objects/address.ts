@@ -25,6 +25,7 @@ export class Address {
     types: string[];
     url: string;
     utc_offset: number;
+    utc_offset_minutes: number;
     vicinity: string;
     website: string;
 }
